@@ -39,8 +39,8 @@ export default function Sidebar () {
       <div className='w-64 absolute sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex h-full'>
         <div className='p-8'>
           <div className='flex align-center justify-center'>
-            <div className='w-full bg-white bg-opacity-90 rounded-xl'>
-              <Image src='/Logo.png' width={50} height={50} title='Logo asociación alcalareña de carnaval' alt='Logo asociación alcalareña de carnaval' />
+            <div className='relative w-32 h-32 bg-white bg-opacity-90 rounded-xl'>
+              <Image src='/Logo.png' fill title='Logo asociación alcalareña de carnaval' alt='Logo asociación alcalareña de carnaval' />
             </div>
           </div>
           <ul className='mt-12'>
@@ -77,8 +77,8 @@ export default function Sidebar () {
         </button>
         <div className='p-8'>
           <div className='flex align-center justify-center'>
-            <div className='w-24 bg-white bg-opacity-90 rounded-xl'>
-              <Image src='/Logo.png' width={50} height={50} title='Logo asociación alcalareña de carnaval' alt='Logo asociación alcalareña de carnaval' />
+            <div className='relative w-32 h-32 bg-white bg-opacity-90 rounded-xl'>
+              <Image src='/Logo.png' fill title='Logo asociación alcalareña de carnaval' alt='Logo asociación alcalareña de carnaval' />
             </div>
           </div>
           <ul className='mt-12'>

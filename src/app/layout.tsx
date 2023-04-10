@@ -14,7 +14,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='es'>
-      <body>
+      <body className='dark'>
         <div className='w-screen h-screen'>
           <div className='flex flex-no-wrap w-full h-full'>
             <Sidebar />
