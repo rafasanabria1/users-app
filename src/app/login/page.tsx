@@ -1,5 +1,5 @@
 export default function Login () {
   return (
-    <h1 className='bg-red'>Login</h1>
+    <h1 className='bg-red text-3xl font-bold underline'>Login</h1>
   )
 }

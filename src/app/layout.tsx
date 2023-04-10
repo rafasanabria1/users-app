@@ -1,3 +1,5 @@
+import './globals.css'
+
 import Sidebar from './components/Sidebar'
 
 export const metadata = {
@@ -13,10 +15,16 @@ export default function RootLayout ({
   return (
     <html lang='es'>
       <body>
-        <Sidebar />
-        <main>
-          {children}
-        </main>
+        <div className='w-screen h-screen'>
+          <div className='flex flex-no-wrap w-full h-full'>
+            <Sidebar />
+            <main className='container mx-auto py-10 md:w-4/5 w-11/12 px-6 h-full'>
+              <div className='w-full h-full rounded border-dashed border-2 border-gray-300'>
+                {children}
+              </div>
+            </main>
+          </div>
+        </div>
       </body>
     </html>
   )
